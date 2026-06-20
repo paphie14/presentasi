@@ -1,0 +1,1 @@
+const l=document.getElementById('guruList');guruData.forEach((g,i)=>l.innerHTML+=`<a class='card' href='guru.html?id=${i}'>${g.nama}</a>`);

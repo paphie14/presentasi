@@ -1,0 +1,133 @@
+body {
+    font-family: 'Segoe UI', Arial, sans-serif;
+    /* Latar belakang pastel gradasi lembut (Soft Blue-Lavender Pastel) */
+    background: linear-gradient(135deg, #f0f4ff, #e0e7ff);
+    color: #1e293b; /* Warna teks gelap lembut agar kontras dengan pastel */
+    margin: 0;
+    padding: 40px 20px;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.wrap, .slide {
+    max-width: 1000px;
+    margin: auto;
+    width: 100%;
+}
+
+/* Pengaturan halaman utama index.html */
+.wrap h1 {
+    font-size: 3rem;
+    text-align: center;
+    color: #312e81;
+    margin-bottom: 40px;
+}
+
+#guruList {
+display: grid;
+grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+gap: 15px;
+}
+
+#guruList .card {
+background: #ffffff;
+padding: 20px;
+border-radius: 14px;
+color: #1e293b;
+text-decoration: none;
+font-weight: 600;
+font-size: 1.1rem;
+box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05);
+transition: all 0.2s;
+border: 1px solid rgba(255, 255, 255, 0.7);
+}
+
+#guruList .card:hover {
+transform: translateY(-3px);
+box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+background: #e0e7ff;
+}
+
+/* --- FORMAT PRESENTASI SLIDE (guru.html) --- */
+
+.slide {
+    text-align: center; /* Membuat semua elemen di halaman guru rata tengah */
+    padding: 20px;
+}
+
+#nama {
+font-size: 4rem; /* Ukuran font nama guru sangat besar untuk presentasi */
+color: #1e3a8a; /* Warna biru navy tua */
+margin-top: 0;
+margin-bottom: 50px;
+font-weight: 800;
+letter-spacing: -0.5px;
+}
+
+#tugas {
+display: flex;
+flex-direction: column;
+gap: 25px; /* Jarak antar slide tugas */
+margin-bottom: 60px;
+}
+
+/* Kartu Tugas Format PPTX */
+#tugas .card {
+background: #ffffff; /* Latar kartu putih bersih */
+padding: 40px; /* Padding tebal agar tidak menyisakan ruang kosong */
+border-radius: 20px;
+box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.05);
+border: 1px solid rgba(226, 232, 240, 0.8);
+text-align: center; /* Konten di dalam tugas dibuat RATA TENGAH */
+margin: 0;
+}
+
+/* Font Judul Tugas Besar */
+#tugas .card b {
+font-size: 2.3rem;
+color: #2563eb; /* Warna aksen biru presentasi */
+display: block;
+margin-bottom: 15px;
+font-weight: 700;
+}
+
+/* Font Tanggal/Program Besar */
+#tugas .card .tanggal-tugas {
+font-size: 1.6rem;
+color: #64748b;
+font-weight: 500;
+display: inline-block;
+background: #f1f5f9;
+padding: 8px 24px;
+border-radius: 30px;
+}
+
+/* Navigasi Presentasi Bawah */
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 600px;
+    margin: auto;
+}
+
+.nav a {
+    background: #ffffff;
+    color: #2563eb;
+    padding: 14px 28px;
+    border-radius: 50px;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 1.2rem;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05);
+    border: 1px solid #e2e3e5;
+    transition: all 0.2s;
+}
+
+.nav a:hover {
+    background: #2563eb;
+    color: #ffffff;
+    transform: scale(1.05);
+}
