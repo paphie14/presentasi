@@ -20,19 +20,15 @@ const guruData = [
     ]
 },
 {
-    "nama": "Dela Gitamiyati, S.Pd",
+    "nama": "Destiami Chaerunisa, S.Pd",
     "tugas": [
         {
             "nama": "Peringatan Hari Ulang Tahun Republik Indonesia (HUT-RI)",
             "tanggal": "19 Agustus 2026"
         },
         {
-            "nama": "Buku Tahunan Siswa (BTS)",
-            "tanggal": "7 Januari 2027"
-        },
-        {
-            "nama": "Tasyakur Kelulusan Murid Kelas 6",
-            "tanggal": "5 Juni 2027"
+            "nama": "PJ Amal Jum’at",
+            "tanggal": "-"
         }
     ]
 },
@@ -46,14 +42,30 @@ const guruData = [
     ]
 },
 {
-    "nama": "Meizar Nurdiana, SP",
+    "nama": "Meizar Nurdiana, S.P.",
     "tugas": [
         {
-            "nama": "BIAS 1 dan 2",
-            "tanggal": "September 2026"
+            "nama": "PJ BIAS",
+            "tanggal": "Setiap Senin"
         },
         {
-            "nama": "Unit Kesehatan Sekolah & Dokter Kecil (UKS & Dokcil)",
+            "nama": "PJ Upacara Bendera",
+            "tanggal": "Setiap Senin"
+        },
+        {
+            "nama": "PJ Unit Kesehatan Sekolah (UKS)",
+            "tanggal": "Setiap Senin"
+        },
+        {
+            "nama": "PJ Dokter Kecil/PMR Mula",
+            "tanggal": "-"
+        },
+        {
+            "nama": "Instruktur Keputrian",
+            "tanggal": "-"
+        },
+        {
+            "nama": "PJ Student of the month",
             "tanggal": "-"
         }
     ]
@@ -84,16 +96,20 @@ const guruData = [
             "tanggal": "24 Oktober 2026"
         },
         {
+            "nama": "Anggota Bina Prestasi",
+            "tanggal": "-"
+        },
+        {
             "nama": "Hafalan Hadist dan Do’a",
-            "tanggal": "Ba'da  sholat dhuha"
+            "tanggal": "Ba'da sholat dhuha"
         },
         {
             "nama": "Sholat Dhuha",
             "tanggal": "-"
         },
         {
-            "nama": "Designer dan admininistrator Media sosial",
-            "tanggal": "Program Rutin"
+            "nama": "Designer dan Admininistrator Media sosial",
+            "tanggal": "-"
         }
     ]
 },
@@ -159,6 +175,19 @@ const guruData = [
     ]
 },
 {
+    "nama": "Dela Gitamiyati, S.Pd",
+    "tugas": [
+        {
+            "nama": "Buku Tahunan Siswa (BTS)",
+            "tanggal": "7 Januari 2027"
+        },
+        {
+            "nama": "Tasyakur Kelulusan Murid Kelas 6",
+            "tanggal": "5 Juni 2027"
+        }
+    ]
+},
+{
     "nama": "Tita Anonnurita F., S.Pd",
     "tugas": [
         {
@@ -201,17 +230,8 @@ const guruData = [
     "nama": "Asep Awaludin, S.Pd",
     "tugas": [
         {
-            "nama": "Hari Ulang Tahu Yayasan Permata Sari (HUT  YPS)",
+            "nama": "Hari Ulang Tahun Yayasan Permata Sari (HUT YPS)",
             "tanggal": "Februari 2027"
-        }
-    ]
-},
-{
-    "nama": "Rini Apriani, S.Pd, M. Rizki Abdillah, S.Pd, Abdul Aziz, S.Ag, Talith Marini Iskandar, S.Pd",
-    "tugas": [
-        {
-            "nama": "Bina Prestasi",
-            "tanggal": "Program Rutin"
         }
     ]
 },
@@ -270,6 +290,14 @@ const guruData = [
         {
             "nama": "Munaqosyah",
             "tanggal": "28 Mei 2027"
+        },
+        {
+            "nama": "Wakil Koordinator Bimbingan Baca Qur'an Metode Ummi",
+            "tanggal": "-"
+        },
+        {
+            "nama": "Tadarus  Al-Qur'an",
+            "tanggal": "-"
         }
     ]
 },
@@ -292,9 +320,13 @@ const guruData = [
         {
             "nama": "PJ Sholat Dhuhur",
             "tanggal": "-"
-        }
+        },
         {
             "nama": "Koordinator Bimbingan Baca Qur'an Metode Ummi",
+            "tanggal": "-"
+        },
+        {
+            "nama": "Tadarus  Al Qur'an",
             "tanggal": "-"
         }
     ]
@@ -308,11 +340,11 @@ const guruData = [
         },
         {
             "nama": "Sholat Jum’at",
-            "tanggal": "Program Rutin"
+            "tanggal": "terjadwal"
         },
         {
-            "nama": "Instruktu Senam Kesegaran Jasmani (SKJ) Kelas 4-6",
-            "tanggal": "Program Rutin"
+            "nama": "PJ dan Instruktur Senam Kesegaran Jasmani (SKJ) Kelas 4-6",
+            "tanggal": "Terjadwal"
         }
     ]
 },
@@ -335,85 +367,27 @@ const guruData = [
     ]
 },
 {
-    "nama": "Meizar Nurdiana, S.P.",
-    "tugas": [
-        {
-            "nama": "PJ Upacara Bendera",
-            "tanggal": "Setiap Senin"
-        }
-        {
-            "nama": "Instruktur Keputrian",
-            "tanggal": "Setiap Senin"
-        }
-        {
-            "nama": "PJ Student of the  month",
-            "tanggal": "-"
-        }
-        {
-            "nama": "Instruktur Roots",
-            "tanggal": "-"
-        }
-    ]
-},
-{
-    "nama": "Meizar Nurdiana, S.P., Rini Apriani, S.Pd",
-    "tugas": [
-        {
-            "nama": "Keputrian",
-            "tanggal": "Program Rutin"
-        }
-    ]
-},
-{
-    "nama": "Meizar Nurdiana, S.P., Rini Apriani, S.Pd.,",
-    "tugas": [
-        {
-            "nama": "Student of the Month",
-            "tanggal": "Program Rutin"
-        }
-    ]
-},
-{
-    "nama": "Destiami Chaerunisa, S.Pd",
-    "tugas": [
-        {
-            "nama": "PJ  Amal Jum’at",
-            "tanggal": "-"
-        }
-    ]
-},
-{
-    "nama": "Wahyudin, S.Pd.I, Yanti Nurhayati, S.Pd.I",
-    "tugas": [
-        {
-            "nama": "Bimbingan Baca Qur'an metode UMMI",
-            "tanggal": "Program Rutin"
-        },
-        {
-            "nama": "Tadarus Bersama",
-            "tanggal": "Program Rutin"
-        }
-    ]
-},
-{
-    "nama": "Rini Apriani, S.Pd, Meizar Nurdiana, S.P.",
-    "tugas": [
-        {
-            "nama": "Roots",
-            "tanggal": "Program Rutin"
-        }
-    ]
-},
-{
     "nama": "Rini Apriani, S.Pd",
     "tugas": [
         {
             "nama": "Koordinator Bina Prestasi",
-            "tanggal": "Program Rutin"
-        }
+            "tanggal": "Tentative"
+        },
+        {
+            "nama": "Instruktur Keputrian",
+            "tanggal": "Terjadwal"
+        },
+        {
+            "nama": "Student of the Month",
+            "tanggal": "-"
+        },
+        {
+            "nama": "Instruktur Roots",
+            "tanggal": "Terjadwal"
+        },
         {
             "nama": "Pj Piket Guru",
-            "tanggal": "Program Rutin"
+            "tanggal": "-"
         }
     ]
 }
