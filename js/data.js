@@ -5,7 +5,7 @@ const guruData = [
         "nama": "Novie Atikah Cono, S.Pd.I",
         "tugas": [
             {
-                "nama": "PJ Karaoke",
+                "nama": "Masa Pengenalan Lingkungan Sekolah",
                 "tanggal": "13 – 15 Juli 2026"
             }
         ]
@@ -15,7 +15,7 @@ const guruData = [
     "tugas": [
         {
             "nama": "Gebyar Muharram",
-            "tanggal": "Program Rutin"
+            "tanggal": "-"
         }
     ]
 },
@@ -23,15 +23,15 @@ const guruData = [
     "nama": "Dela Gitamiyati, S.Pd",
     "tugas": [
         {
-            "nama": "Hari Ulang Tahun Republik Indonesia",
+            "nama": "Peringatan Hari Ulang Tahun Republik Indonesia (HUT-RI)",
             "tanggal": "19 Agustus 2026"
         },
         {
-            "nama": "Foto Buku Tahunan Siswa",
+            "nama": "Buku Tahunan Siswa (BTS)",
             "tanggal": "7 Januari 2027"
         },
         {
-            "nama": "Tasyakur Kelulusan",
+            "nama": "Tasyakur Kelulusan Murid Kelas 6",
             "tanggal": "5 Juni 2027"
         }
     ]
@@ -40,7 +40,7 @@ const guruData = [
     "nama": "Ayu Mariandari, S.Pd",
     "tugas": [
         {
-            "nama": "Maulid Nabi Muhammad SAW",
+            "nama": "Peringatan Maulid Nabi Muhammad SAW",
             "tanggal": "26 Agustus 2026"
         }
     ]
@@ -49,12 +49,12 @@ const guruData = [
     "nama": "Meizar Nurdiana, SP",
     "tugas": [
         {
-            "nama": "BIAS 1 & 2",
-            "tanggal": "09/26/26"
+            "nama": "BIAS 1 dan 2",
+            "tanggal": "September 2026"
         },
         {
-            "nama": "Unit Kesehatan Sekolah & Dokter Kecil",
-            "tanggal": "Program Rutin"
+            "nama": "Unit Kesehatan Sekolah & Dokter Kecil (UKS & Dokcil)",
+            "tanggal": "-"
         }
     ]
 },
@@ -63,7 +63,7 @@ const guruData = [
     "tugas": [
         {
             "nama": "Asesmen Sumatif Tengah Semester 1",
-            "tanggal": "Program Rutin"
+            "tanggal": "Oktober 2026"
         }
     ]
 },
@@ -71,7 +71,7 @@ const guruData = [
     "nama": "Putri Annisa Afianty, S.Pd",
     "tugas": [
         {
-            "nama": "Rihlah",
+            "nama": "Rihlah kelas 1-3",
             "tanggal": "12 Oktober 2026"
         }
     ]
@@ -80,19 +80,19 @@ const guruData = [
     "nama": "Muhammad Rizqi Fadhillah, S.Pd.",
     "tugas": [
         {
-            "nama": "Pekan Prestasi siswa",
+            "nama": "Pekan Prestasi siswa (Seleksi calon Atlit)",
             "tanggal": "24 Oktober 2026"
         },
         {
             "nama": "Hafalan Hadist dan Do’a",
-            "tanggal": "Program Rutin"
+            "tanggal": "Ba'da  sholat dhuha"
         },
         {
             "nama": "Sholat Dhuha",
-            "tanggal": "Program Rutin"
+            "tanggal": "-"
         },
         {
-            "nama": "Media sosial",
+            "nama": "Designer dan admininistrator Media sosial",
             "tanggal": "Program Rutin"
         }
     ]
@@ -109,7 +109,7 @@ const guruData = [
             "tanggal": "Mei – Juni 2027"
         },
         {
-            "nama": "Pramuka Fase C",
+            "nama": "Kegiatan kepramukaan Fase C",
             "tanggal": "Program Rutin"
         }
     ]
@@ -119,14 +119,14 @@ const guruData = [
     "tugas": [
         {
             "nama": "Cikal Harapan Fair 2027",
-            "tanggal": "21 November 2026 (menunggu info YPS Cabang Jabar)"
+            "tanggal": "menunggu info YPS Cabang Jabar"
         },
         {
-            "nama": "Pelatih Petugas Upacara",
+            "nama": "Pelatih Petugas Upacara Bendera",
             "tanggal": "Program Rutin"
         },
         {
-            "nama": "Senam Kesegaran Jasmani Kelas 1-3",
+            "nama": "Instruktur Senam Kesegaran Jasmani Kelas 1-3",
             "tanggal": "Program Rutin"
         }
     ]
@@ -166,8 +166,8 @@ const guruData = [
             "tanggal": "12 Januari 2027"
         },
         {
-            "nama": "Pramuka Fase B",
-            "tanggal": "Program Rutin"
+            "nama": "Kegiatan kepramukaan Fase B",
+            "tanggal": "Setiap hari Rabu"
         }
     ]
 },
@@ -183,8 +183,8 @@ const guruData = [
             "tanggal": "Februari 2027"
         },
         {
-            "nama": "Pramuka Fase A",
-            "tanggal": "Program Rutin"
+            "nama": "Kegiaatan Kepramukaan Fase A",
+            "tanggal": "Setiap hari Rabu"
         }
     ]
 },
@@ -201,7 +201,7 @@ const guruData = [
     "nama": "Asep Awaludin, S.Pd",
     "tugas": [
         {
-            "nama": "Hari Ulang Tahu Yayasan Permata Sari",
+            "nama": "Hari Ulang Tahu Yayasan Permata Sari (HUT  YPS)",
             "tanggal": "Februari 2027"
         }
     ]
@@ -242,7 +242,7 @@ const guruData = [
         },
         {
             "nama": "Sekolah Adiwiyata",
-            "tanggal": "Program Rutin"
+            "tanggal": "-"
         }
     ]
 },
@@ -286,12 +286,16 @@ const guruData = [
     "nama": "Wahyudin, S.Pd.I",
     "tugas": [
         {
-            "nama": "khataman dan Imtihan",
+            "nama": "PJ khataman dan Imtihan",
             "tanggal": "15 Juni 2027"
         },
         {
-            "nama": "Sholat Dhuhur",
-            "tanggal": "Program Rutin"
+            "nama": "PJ Sholat Dhuhur",
+            "tanggal": "-"
+        }
+        {
+            "nama": "Koordinator Bimbingan Baca Qur'an Metode Ummi",
+            "tanggal": "-"
         }
     ]
 },
@@ -307,7 +311,7 @@ const guruData = [
             "tanggal": "Program Rutin"
         },
         {
-            "nama": "Senam Kesegaran JasmaniKelas 4-6",
+            "nama": "Instruktu Senam Kesegaran Jasmani (SKJ) Kelas 4-6",
             "tanggal": "Program Rutin"
         }
     ]
@@ -316,7 +320,7 @@ const guruData = [
     "nama": "Evi Farida, S.Pd",
     "tugas": [
         {
-            "nama": "Idul Qurban",
+            "nama": "PJ Idul Qurban",
             "tanggal": "16 Mei 2027"
         }
     ]
@@ -325,7 +329,7 @@ const guruData = [
     "nama": "Desy Apriyani, S.Pd",
     "tugas": [
         {
-            "nama": "Pentas Seni",
+            "nama": "PJ Pentas Seni",
             "tanggal": "11 Juni 2027"
         }
     ]
@@ -334,8 +338,20 @@ const guruData = [
     "nama": "Meizar Nurdiana, S.P.",
     "tugas": [
         {
-            "nama": "Upacara Bendera",
-            "tanggal": "Program Rutin"
+            "nama": "PJ Upacara Bendera",
+            "tanggal": "Setiap Senin"
+        }
+        {
+            "nama": "Instruktur Keputrian",
+            "tanggal": "Setiap Senin"
+        }
+        {
+            "nama": "PJ Student of the  month",
+            "tanggal": "-"
+        }
+        {
+            "nama": "Instruktur Roots",
+            "tanggal": "-"
         }
     ]
 },
@@ -361,8 +377,8 @@ const guruData = [
     "nama": "Destiami Chaerunisa, S.Pd",
     "tugas": [
         {
-            "nama": "Amal Jum’at",
-            "tanggal": "Program Rutin"
+            "nama": "PJ  Amal Jum’at",
+            "tanggal": "-"
         }
     ]
 },
@@ -391,6 +407,10 @@ const guruData = [
 {
     "nama": "Rini Apriani, S.Pd",
     "tugas": [
+        {
+            "nama": "Koordinator Bina Prestasi",
+            "tanggal": "Program Rutin"
+        }
         {
             "nama": "Pj Piket Guru",
             "tanggal": "Program Rutin"
