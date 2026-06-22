@@ -61,10 +61,6 @@ const guruData = [
             "tanggal": "-"
         },
         {
-            "nama": "Instruktur Keputrian",
-            "tanggal": "-"
-        },
-        {
             "nama": "PJ Student of the month",
             "tanggal": "-"
         }
