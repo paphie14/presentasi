@@ -363,7 +363,7 @@ const guruData = [
     "tugas": [
         {
             "nama": "PJ Pentas Seni",
-            "tanggal": "11 Juni 2027"
+            "tanggal": " Maret 2027"
         }
     ]
 },
@@ -381,10 +381,6 @@ const guruData = [
         {
             "nama": "Student of the Month",
             "tanggal": "-"
-        },
-        {
-            "nama": "Instruktur Roots",
-            "tanggal": "Terjadwal"
         },
         {
             "nama": "Pj Piket Guru",
