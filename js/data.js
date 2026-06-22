@@ -76,9 +76,14 @@ const guruData = [
         {
             "nama": "Asesmen Sumatif Tengah Semester 1",
             "tanggal": "Oktober 2026"
+        },
+        {
+            "nama": "Instruktur Keputrian",
+            "tanggal": "Oktober 2026"
         }
     ]
 },
+
 {
     "nama": "Putri Annisa Afianty, S.Pd",
     "tugas": [
