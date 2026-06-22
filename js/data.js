@@ -11,7 +11,7 @@ const guruData = [
         ]
     },
 {
-    "nama": "Futri Rahmatul Aliyah, S.Pd",
+    "nama": "Destiami Chaerunisa, S.Pd",
     "tugas": [
         {
             "nama": "Gebyar Muharram",
@@ -20,7 +20,7 @@ const guruData = [
     ]
 },
 {
-    "nama": "Destiami Chaerunisa, S.Pd",
+    "nama": "Futri Rahmatul Aliyah, S.Pd",
     "tugas": [
         {
             "nama": "Peringatan Hari Ulang Tahun Republik Indonesia (HUT-RI)",
