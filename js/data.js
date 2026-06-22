@@ -75,7 +75,7 @@ const guruData = [
         },
         {
             "nama": "Instruktur Keputrian",
-            "tanggal": "Oktober 2026"
+            "tanggal": "Terjadwal"
         }
     ]
 },
