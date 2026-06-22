@@ -54,7 +54,7 @@ const guruData = [
         },
         {
             "nama": "PJ Unit Kesehatan Sekolah (UKS)",
-            "tanggal": "Setiap Senin"
+            "tanggal": "-"
         },
         {
             "nama": "PJ Dokter Kecil/PMR Mula",
@@ -136,7 +136,7 @@ const guruData = [
     "tugas": [
         {
             "nama": "Cikal Harapan Fair 2027",
-            "tanggal": "menunggu info YPS Cabang Jabar"
+            "tanggal": "Menunggu info YPS Cabang Jabar"
         },
         {
             "nama": "Pelatih Petugas Upacara Bendera",
@@ -213,7 +213,7 @@ const guruData = [
             "tanggal": "Februari 2027"
         },
         {
-            "nama": "Kegiaatan Kepramukaan Fase A",
+            "nama": "Kegiatan Kepramukaan Fase A",
             "tanggal": "Setiap hari Rabu"
         }
     ]
